@@ -1,46 +1,76 @@
-# Welcome to your Lovable project
+# 📚 Slide Cleaner by Bidibo
 
-## Project info
+**Slide Cleaner by Bidibo** is a simple, fast, and fully client-side tool designed to help students turn messy classroom slides into clean, print-friendly notes. Many students struggle with dark slides, wasted paper, and unclear text when printing — especially when each slide ends up on a separate page. To solve this, Slide Cleaner provides an offline-capable solution that cleans slide backgrounds, improves clarity, and allows multiple slides to be arranged on a single page before exporting as a PDF.
 
-**URL**: https://lovable.dev/projects/7ebf8f35-daf8-4b18-b2ea-281ea2f55d6c
+Try it here:  
+👉 **https://slide-cleaner-by-bidibo.vercel.app**
 
-## How can I edit this code?
+---
 
-There are several ways of editing your application.
+## ✨ Features
 
-**Use Lovable**
+- **Clean black/dark slide backgrounds** into bright, white pages  
+- **Arrange multiple slides per page**: 2, 3, 4, 5 — or as many as needed  
+- **High-quality PDF export**  
+- **Offline-capable** (fully client-side — no uploads, no server needed)  
+- **Saves pages, saves ink, and improves clarity**  
+- **Fast, privacy-friendly, and easy to use**  
+- **Perfect for printing study notes**
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7ebf8f35-daf8-4b18-b2ea-281ea2f55d6c) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌟 Why I Built This
 
-**Use your preferred IDE**
+Most students face the same problems:
+- Slides with dark backgrounds waste ink  
+- One slide per page wastes 20–50 pages  
+- Hard-to-read text after printing  
+- Online converters require uploading files (privacy issues)  
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+I personally saw how difficult it was for students during exam prep, and how many pages were wasted.  
+So I built **Slide Cleaner by Bidibo** — a tool that runs entirely on your device, cleans slides instantly, and lets you pack multiple slides onto one page. Students have already found it extremely helpful for saving paper and getting clearer, more readable printed notes.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 How It Works
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+1. Open: **https://slide-cleaner-by-bidibo.vercel.app**  
+2. Upload your slides (images/PDF pages).  
+3. The tool automatically brightens and cleans the slides.  
+4. Choose slides-per-page layout (2, 3, 4, 5, etc.).  
+5. Export as a clean, compact, print-ready PDF.  
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+Everything happens in your browser — no uploads, no server, completely private.
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 🧩 Tech Stack
 
-**Edit a file directly in GitHub**
+- HTML5 Canvas  
+- JavaScript (client-side processing)  
+- CSS3  
+- jsPDF / client-side PDF generation  
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
+
+## 📄 License
+
+MIT License — feel free to use, modify, and contribute.
+
+---
+
+## 🙌 Contribute
+
+Pull requests are welcome!  
+You can improve:
+- Background cleaning accuracy  
+- UI/UX  
+- Slide layout options  
+- PDF export quality  
+
+---
+
+### 🎓 Slide Cleaner by Bidibo — Save pages. Improve clarity. Study smarter.- Make your changes and commit the changes.
 
 **Use GitHub Codespaces**
 
@@ -60,14 +90,3 @@ This project is built with:
 - shadcn-ui
 - Tailwind CSS
 
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/7ebf8f35-daf8-4b18-b2ea-281ea2f55d6c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
